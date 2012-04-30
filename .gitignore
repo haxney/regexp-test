@@ -8,3 +8,5 @@
 /nfa-perl.c
 /nfa-perl.output
 /nfa-posix
+/dfa1
+/nfa
