@@ -1,0 +1,5 @@
+#!/bin/sh
+
+re=$1
+shift
+./dfa0 "$re" "$@"

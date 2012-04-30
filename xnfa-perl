@@ -1,0 +1,5 @@
+#!/bin/sh
+
+re=$1
+shift
+./nfa-perl "$re" "$@"
