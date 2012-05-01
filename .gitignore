@@ -13,3 +13,4 @@
 *.o
 *.a
 /p9mk-install
+.hg
