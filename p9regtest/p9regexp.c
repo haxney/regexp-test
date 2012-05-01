@@ -10,15 +10,14 @@
 int main(int argc, char **argv) {
 
         Reprog *compiled = regcomp(argv[1]);
-        int place = 2;
         char *line;
         size_t len = 0;
         ssize_t read_length;
 
         while ((read_length = getline(&line, &len, stdin)) != -1) {
                 if (regexec(compiled, line, 0, 0) == 1) {
-                        fprintf(stdout, "%s\n", line);
-                }("%s", line);
+                        fprintf(stdout, "%s", line);
+                };
         }
 
         exit(0);
