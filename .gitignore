@@ -10,3 +10,6 @@
 /nfa-posix
 /dfa1
 /nfa
+*.o
+*.a
+/p9mk-install
