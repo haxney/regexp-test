@@ -38,8 +38,8 @@ sub time1 {
                 $re = ("(a|b)?" x $i) . ("(a|b)" x $i) . "z";
                 $s = ("a" x $i) . "z";
         }
-        if($prog !~ /^(\.\/)?x.fa/){
-            print STDERR "putting on anchors\n";
+        if($prog !~ /^(\.\/)?(x.fa)|(p9)|/){
+            # print STDERR "putting on anchors\n";
                 $re = "^$re\$";
         }
         ($_, $_, $c0, $_) = times;
