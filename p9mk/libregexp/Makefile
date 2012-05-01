@@ -52,10 +52,10 @@ install: $(LIB)
 	install -m 0644 regexp9.h $(PREFIX)/include/regexp9.h
 
 test: test.$O $(LIB)
-	$(CC) -o test test.$O $(LIB) -L/usr/local/lib -lfmt -lutf
+	$(CC) -o test test.$O $(LIB) -L$(PREFIX)/lib -lfmt -lutf
 
 test2: test2.$O $(LIB)
-	$(CC) -o test2 test2.$O $(LIB) -L/usr/local/lib -lfmt -lutf
+	$(CC) -o test2 test2.$O $(LIB) -L$(PREFIX)/lib -lfmt -lutf
 
 $(LIB): $(OFILES)
 	$(AR) $(ARFLAGS) $(LIB) $(OFILES)
@@ -102,7 +102,7 @@ ports:
 	cat bundle.ports | (cd $(PORTDIR) && awk '$$1=="---" && $$3=="---" { ofile=$$2; next} {if(ofile) print >ofile}')
 	(cd $(PORTDIR); make makesum)
 	(cd $(PORTDIR); make)
-	(cd $(PORTDIR); /usr/local/bin/portlint)
+	(cd $(PORTDIR); $(PREFIX)/bin/portlint)
 	rm -rf $(PORTDIR)/work
 	shar `find $(PORTDIR)` > ports.shar
 	(cd $(PORTDIR); tar cf - *) | gzip >$(NAME)-$(VERSION)-ports.tgz
