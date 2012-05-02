@@ -1,15 +1,15 @@
 * Additional implementations
 ** Haskell
    - Haskell library: http://hackage.haskell.org/package/regexpr
-   - Weighted Rexegp Matching (haskell): http://sebfisch.github.com/haskell-regexp/
-   - text-icu (haskell): http://hackage.haskell.org/package/text-icu
-   - pcre-light (haskell): http://hackage.haskell.org/package/pcre-light
-   - regexp-tries (haskell): https://github.com/baldo/regexp-tries
-   - regex-posix (haskell): http://hackage.haskell.org/package/regex-posix
-   - regex-applicative (haskell): http://hackage.haskell.org/package/regex-applicative
-   - regex-tdfa (haskell): http://hackage.haskell.org/package/regex-tdfa
-   - regex-dfa (haskell): http://hackage.haskell.org/package/regex-dfa
-   - regex-parsec (haskell): http://hackage.haskell.org/package/regex-parsec
+   - Weighted Rexegp Matching: http://sebfisch.github.com/haskell-regexp/
+   - text-icu: http://hackage.haskell.org/package/text-icu
+   - pcre-light: http://hackage.haskell.org/package/pcre-light
+   - regexp-tries: https://github.com/baldo/regexp-tries
+   - regex-posix: http://hackage.haskell.org/package/regex-posix
+   - regex-applicative: http://hackage.haskell.org/package/regex-applicative
+   - regex-tdfa: http://hackage.haskell.org/package/regex-tdfa
+   - regex-dfa: http://hackage.haskell.org/package/regex-dfa
+   - regex-parsec: http://hackage.haskell.org/package/regex-parsec
 ** Lisp family
    - CL-PPCRE http://weitz.de/cl-ppcre/
    - Emacs
@@ -18,13 +18,38 @@
    - jakarta oro (might be same as libregexp_java): https://jakarta.apache.org/oro/
    - Java's built-in regexp classes
    - gnu-regexp (pure java): http://savannah.gnu.org/projects/gnu-regexp
+   - frej: http://frej.sourceforge.net/
+   - jregex: http://jregex.sourceforge.net/
+   - stevesoft.pat: http://www.javaregex.com/download.html
+   - dk.brics.automaton: http://www.brics.dk/automaton/
 ** C/C++
    - C bindings for re2: https://github.com/marcomaggi/cre2/
+   - Boost.Regex: http://www.boost.org/doc/libs/1_49_0/libs/regex/doc/html/index.html
+   - Boost.Xpressive: http://www.boost.org/doc/libs/1_36_0/doc/html/xpressive.html
+   - Pire: https://github.com/dprokoptsev/pire
+   - Ragel: http://www.complang.org/ragel/
+   - Boost Spirit: http://boost-spirit.com/home/
+   - Jeff Stuart: http://jeff.bleugris.com/journal/projects/
+   - ICU: http://userguide.icu-project.org/strings/regexp
+   - Oniguruma: http://www.geocities.jp/kosako3/oniguruma/
+   - QRegExp: http://doc.trolltech.com/4.7/qregexp.html
+   - PCRE-sljit (JIT for PCRE): http://sljit.sourceforge.net/pcre.html
+   - Webkit YARR (might not be standalone): https://trac.webkit.org/browser/trunk/Source/JavaScriptCore/yarr
+** C#
+   - Built-in engine from Mono
+** R
+   - Just reuses GNU and PCRE
+** Tcl
+   - Advanced Regular Expressions (ARE) by Henry Spencer
 ** PHP
    - standard builtin libs. Two non-pcre-based libraries
 ** Javascript
    - Irregexp (part of v8): https://code.google.com/p/v8/
    - Mozilla regexp
+* Other resources
+  - [[http://www.boost.org/doc/libs/1_41_0/libs/regex/doc/gcc-performance.html][John Maddock's benchmarks]]
+  - [[http://sljit.sourceforge.net/regex_perf.html][sljit benchmarks]]
+  - [[http://www.regxlib.com/][Regex library]]
 
 # Local Variables:
 # mode: org
