@@ -1,0 +1,31 @@
+* Additional implementations
+** Haskell
+   - Haskell library: http://hackage.haskell.org/package/regexpr
+   - Weighted Rexegp Matching (haskell): http://sebfisch.github.com/haskell-regexp/
+   - text-icu (haskell): http://hackage.haskell.org/package/text-icu
+   - pcre-light (haskell): http://hackage.haskell.org/package/pcre-light
+   - regexp-tries (haskell): https://github.com/baldo/regexp-tries
+   - regex-posix (haskell): http://hackage.haskell.org/package/regex-posix
+   - regex-applicative (haskell): http://hackage.haskell.org/package/regex-applicative
+   - regex-tdfa (haskell): http://hackage.haskell.org/package/regex-tdfa
+   - regex-dfa (haskell): http://hackage.haskell.org/package/regex-dfa
+   - regex-parsec (haskell): http://hackage.haskell.org/package/regex-parsec
+** Lisp family
+   - CL-PPCRE http://weitz.de/cl-ppcre/
+   - Emacs
+** Java
+   - libregexp_java (pure java): http://jakarta.apache.org/regexp/
+   - jakarta oro (might be same as libregexp_java): https://jakarta.apache.org/oro/
+   - Java's built-in regexp classes
+   - gnu-regexp (pure java): http://savannah.gnu.org/projects/gnu-regexp
+** C/C++
+   - C bindings for re2: https://github.com/marcomaggi/cre2/
+** PHP
+   - standard builtin libs. Two non-pcre-based libraries
+** Javascript
+   - Irregexp (part of v8): https://code.google.com/p/v8/
+   - Mozilla regexp
+
+# Local Variables:
+# mode: org
+# End:
