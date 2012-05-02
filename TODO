@@ -50,6 +50,7 @@
   - [[http://www.boost.org/doc/libs/1_41_0/libs/regex/doc/gcc-performance.html][John Maddock's benchmarks]]
   - [[http://sljit.sourceforge.net/regex_perf.html][sljit benchmarks]]
   - [[http://www.regxlib.com/][Regex library]]
+  - [[http://tusker.org/regex/regex_benchmark.html][Tusker benchmarks]]
 
 # Local Variables:
 # mode: org
